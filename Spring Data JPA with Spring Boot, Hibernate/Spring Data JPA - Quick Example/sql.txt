@@ -1,0 +1,13 @@
+CREATE DATABASE ormlearn;
+
+USE ormlearn;
+
+CREATE TABLE country (
+  code CHAR(2) PRIMARY KEY,
+  name VARCHAR(100)
+);
+
+INSERT INTO country (code, name) VALUES
+('IN', 'India'),
+('US', 'United States'),
+('CN', 'China');
